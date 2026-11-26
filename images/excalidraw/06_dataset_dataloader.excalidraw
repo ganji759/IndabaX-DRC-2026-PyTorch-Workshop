@@ -1,0 +1,302 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwx9uyv2lsqpao1tnqj",
+      "type": "text",
+      "x": 620,
+      "y": 15,
+      "text": "Dataset et DataLoader",
+      "fontSize": 28,
+      "createdAt": "2026-11-26T08:09:50.082Z",
+      "updatedAt": "2026-11-26T08:09:50.082Z",
+      "version": 1
+    },
+    {
+      "id": "ds",
+      "type": "rectangle",
+      "x": 40,
+      "y": 165,
+      "width": 360,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Dataset FashionMNIST"
+      },
+      "fontSize": 22,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv2qhemye939g9",
+      "type": "text",
+      "x": 40,
+      "y": 265,
+      "strokeColor": "#868e96",
+      "text": "60 000 images d'entraînement\n+ étiquettes (10 classes)",
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3of4przf61wi",
+      "type": "rectangle",
+      "x": 40,
+      "y": 350,
+      "width": 360,
+      "height": 80,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "transform = v2.ToImage() +\nv2.ToDtype(float32, scale=True)"
+      },
+      "fontSize": 14,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3xjpni6qhqp",
+      "type": "text",
+      "x": 40,
+      "y": 442,
+      "strokeColor": "#868e96",
+      "text": "image → tenseur, valeurs entre 0 et 1",
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "dl",
+      "type": "rectangle",
+      "x": 480,
+      "y": 165,
+      "width": 240,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "DataLoader"
+      },
+      "fontSize": 22,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv33eebzf6tlzq",
+      "type": "text",
+      "x": 470,
+      "y": 265,
+      "strokeColor": "#868e96",
+      "text": "batch_size=64, shuffle=True",
+      "fontSize": 16,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "zone",
+      "type": "rectangle",
+      "x": 840,
+      "y": 60,
+      "width": 420,
+      "height": 300,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "opacity": 50,
+      "createdAt": "2026-11-26T08:09:50.083Z",
+      "updatedAt": "2026-11-26T08:09:50.083Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3086qcz0541m",
+      "type": "rectangle",
+      "x": 860,
+      "y": 75,
+      "width": 380,
+      "height": 55,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "lot 1 : X [64, 1, 28, 28], y [64]"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv30t8orjlfczd",
+      "type": "rectangle",
+      "x": 860,
+      "y": 145,
+      "width": 380,
+      "height": 55,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "lot 2"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3dr55uei82qv",
+      "type": "rectangle",
+      "x": 860,
+      "y": 215,
+      "width": 380,
+      "height": 55,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "…"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3dnx8v1w1ih",
+      "type": "rectangle",
+      "x": 860,
+      "y": 285,
+      "width": 380,
+      "height": 55,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "lot 938"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "md",
+      "type": "rectangle",
+      "x": 1340,
+      "y": 165,
+      "width": 170,
+      "height": 90,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "Modèle"
+      },
+      "fontSize": 22,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3ees0sk2ph7t",
+      "type": "arrow",
+      "x": 408,
+      "y": 210,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "ds"
+      },
+      "end": {
+        "id": "dl"
+      },
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3jy6e370lps",
+      "type": "arrow",
+      "x": 728,
+      "y": 210,
+      "width": 120,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          104,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "dl"
+      },
+      "end": {
+        "id": "zone"
+      },
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3g274adbht0i",
+      "type": "arrow",
+      "x": 1268,
+      "y": 210,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          0
+        ]
+      ],
+      "start": {
+        "id": "zone"
+      },
+      "end": {
+        "id": "md"
+      },
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9uyv3oikkxzfe938",
+      "type": "text",
+      "x": 480,
+      "y": 500,
+      "text": "Le DataLoader mélange les données et les donne au modèle par petits lots",
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:09:50.084Z",
+      "updatedAt": "2026-11-26T08:09:50.084Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

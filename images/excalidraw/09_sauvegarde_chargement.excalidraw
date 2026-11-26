@@ -1,0 +1,420 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwx9x6gvnpcfr2f391",
+      "type": "text",
+      "x": 520,
+      "y": 15,
+      "text": "Sauvegarder et charger un modèle",
+      "fontSize": 28,
+      "createdAt": "2026-11-26T08:11:33.252Z",
+      "updatedAt": "2026-11-26T08:11:33.252Z",
+      "version": 1
+    },
+    {
+      "id": "t1",
+      "type": "rectangle",
+      "x": 40,
+      "y": 100,
+      "width": 180,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "Modèle entraîné"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "t2",
+      "type": "rectangle",
+      "x": 270,
+      "y": 100,
+      "width": 270,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "model.state_dict()"
+      },
+      "fontSize": 18,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "t3",
+      "type": "rectangle",
+      "x": 590,
+      "y": 100,
+      "width": 460,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "torch.save(state_dict, \"model.pth\")"
+      },
+      "fontSize": 16,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "t4",
+      "type": "rectangle",
+      "x": 1130,
+      "y": 100,
+      "width": 300,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "model.pth (fichier)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv81gqpw5mf79",
+      "type": "text",
+      "x": 270,
+      "y": 192,
+      "strokeColor": "#868e96",
+      "text": "dictionnaire : nom de couche\n→ tenseur de poids",
+      "fontSize": 14,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "u1",
+      "type": "rectangle",
+      "x": 1130,
+      "y": 350,
+      "width": 300,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "torch.load(\"model.pth\",\nweights_only=True)"
+      },
+      "fontSize": 16,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:11:33.253Z",
+      "updatedAt": "2026-11-26T08:11:33.253Z",
+      "version": 1
+    },
+    {
+      "id": "u2",
+      "type": "rectangle",
+      "x": 850,
+      "y": 350,
+      "width": 230,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Nouveau modèle :\nNeuralNetwork()"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:11:33.271Z",
+      "updatedAt": "2026-11-26T08:11:33.271Z",
+      "version": 1
+    },
+    {
+      "id": "u3",
+      "type": "rectangle",
+      "x": 510,
+      "y": 350,
+      "width": 290,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "model.load_state_dict(...)"
+      },
+      "fontSize": 16,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:11:33.271Z",
+      "updatedAt": "2026-11-26T08:11:33.271Z",
+      "version": 1
+    },
+    {
+      "id": "u4",
+      "type": "rectangle",
+      "x": 260,
+      "y": 350,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "model.eval()"
+      },
+      "fontSize": 16,
+      "fontFamily": 3,
+      "createdAt": "2026-11-26T08:11:33.271Z",
+      "updatedAt": "2026-11-26T08:11:33.271Z",
+      "version": 1
+    },
+    {
+      "id": "u5",
+      "type": "rectangle",
+      "x": 40,
+      "y": 350,
+      "width": 170,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "Prédictions"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gvj5nbwc0lqg",
+      "type": "arrow",
+      "x": 228,
+      "y": 140,
+      "width": 50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "t1"
+      },
+      "end": {
+        "id": "t2"
+      },
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gvnlk0u6c1jnr",
+      "type": "arrow",
+      "x": 548,
+      "y": 140,
+      "width": 50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "t2"
+      },
+      "end": {
+        "id": "t3"
+      },
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv8d4we89mvix",
+      "type": "arrow",
+      "x": 1058,
+      "y": 140,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "t3"
+      },
+      "end": {
+        "id": "t4"
+      },
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv7b1dfdt6vyn",
+      "type": "arrow",
+      "x": 1280,
+      "y": 188,
+      "width": 1,
+      "height": 170,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          154
+        ]
+      ],
+      "start": {
+        "id": "t4"
+      },
+      "end": {
+        "id": "u1"
+      },
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gvyalz27kq1k",
+      "type": "arrow",
+      "x": 1122,
+      "y": 390,
+      "width": -50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "u1"
+      },
+      "end": {
+        "id": "u2"
+      },
+      "createdAt": "2026-11-26T08:11:33.272Z",
+      "updatedAt": "2026-11-26T08:11:33.272Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv6ppias2tck4",
+      "type": "arrow",
+      "x": 842,
+      "y": 390,
+      "width": -50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "u2"
+      },
+      "end": {
+        "id": "u3"
+      },
+      "createdAt": "2026-11-26T08:11:33.273Z",
+      "updatedAt": "2026-11-26T08:11:33.273Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gvcmnkaaiqli8",
+      "type": "arrow",
+      "x": 502,
+      "y": 390,
+      "width": -50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "u3"
+      },
+      "end": {
+        "id": "u4"
+      },
+      "createdAt": "2026-11-26T08:11:33.274Z",
+      "updatedAt": "2026-11-26T08:11:33.274Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv8tm049653r9",
+      "type": "arrow",
+      "x": 252,
+      "y": 390,
+      "width": -50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "u4"
+      },
+      "end": {
+        "id": "u5"
+      },
+      "createdAt": "2026-11-26T08:11:33.274Z",
+      "updatedAt": "2026-11-26T08:11:33.274Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9x6gv6nyclqz1n9w",
+      "type": "text",
+      "x": 300,
+      "y": 490,
+      "strokeColor": "#868e96",
+      "text": "On sauvegarde les poids, pas le code. Le code de la classe est nécessaire pour charger.",
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:11:33.274Z",
+      "updatedAt": "2026-11-26T08:11:33.274Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwx9weankxvrukv7pph",
+      "type": "text",
+      "x": 510,
+      "y": 10,
+      "text": "La boucle d'entraînement",
+      "fontSize": 28,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "s1",
+      "type": "rectangle",
+      "x": 480,
+      "y": 70,
+      "width": 320,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "1. Prendre un lot (X, y)"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "s2",
+      "type": "rectangle",
+      "x": 930,
+      "y": 210,
+      "width": 320,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "2. Prédiction :\npred = model(X)"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "s3",
+      "type": "rectangle",
+      "x": 790,
+      "y": 450,
+      "width": 320,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "3. Perte :\nloss = loss_fn(pred, y)"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "s4",
+      "type": "rectangle",
+      "x": 170,
+      "y": 450,
+      "width": 320,
+      "height": 90,
+      "backgroundColor": "#ffc9c9",
+      "strokeColor": "#e03131",
+      "label": {
+        "text": "4. Gradients :\nloss.backward()"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "s5",
+      "type": "rectangle",
+      "x": 30,
+      "y": 210,
+      "width": 320,
+      "height": 90,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "5. Mise à jour :\noptimizer.step() puis\noptimizer.zero_grad()"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanj3afhk1db2n",
+      "type": "arrow",
+      "x": 792.2817113535034,
+      "y": 162.37653242108996,
+      "width": 130,
+      "height": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          145.4365772929931,
+          45.246935157820076
+        ]
+      ],
+      "start": {
+        "id": "s1"
+      },
+      "end": {
+        "id": "s2"
+      },
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanlvhlsv76hbk",
+      "type": "arrow",
+      "x": 1059.7190317958073,
+      "y": 306.91023120718745,
+      "width": -140,
+      "height": 150,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -79.43806359161454,
+          136.1795375856251
+        ]
+      ],
+      "start": {
+        "id": "s2"
+      },
+      "end": {
+        "id": "s3"
+      },
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanhs0dsqqm2bb",
+      "type": "arrow",
+      "x": 782,
+      "y": 495,
+      "width": -300,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -284,
+          0
+        ]
+      ],
+      "start": {
+        "id": "s3"
+      },
+      "end": {
+        "id": "s4"
+      },
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanhzlvy3q9nz",
+      "type": "arrow",
+      "x": 299.7190317958073,
+      "y": 443.08976879281255,
+      "width": -140,
+      "height": -150,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -79.43806359161465,
+          -136.1795375856251
+        ]
+      ],
+      "start": {
+        "id": "s4"
+      },
+      "end": {
+        "id": "s5"
+      },
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanetdkj89vzm6",
+      "type": "arrow",
+      "x": 342.2817113535034,
+      "y": 207.62346757891004,
+      "width": 290,
+      "height": -100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          145.4365772929931,
+          -45.246935157820076
+        ]
+      ],
+      "start": {
+        "id": "s5"
+      },
+      "end": {
+        "id": "s1"
+      },
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9wean6ug6gzlav7a",
+      "type": "text",
+      "x": 520,
+      "y": 250,
+      "text": "1 époque (epoch) =\ntous les lots du\nDataset une fois",
+      "fontSize": 22,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9weanfij5v6cb5s",
+      "type": "text",
+      "x": 340,
+      "y": 580,
+      "strokeColor": "#868e96",
+      "text": "On répète pendant plusieurs époques. La perte doit baisser.",
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:10:56.740Z",
+      "updatedAt": "2026-11-26T08:10:56.740Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

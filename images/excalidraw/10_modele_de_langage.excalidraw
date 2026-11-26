@@ -1,0 +1,479 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwx9y3nszhou7z0ecw",
+      "type": "text",
+      "x": 380,
+      "y": 10,
+      "text": "Comment un modèle de langage lit et écrit du texte",
+      "fontSize": 28,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "in",
+      "type": "rectangle",
+      "x": 30,
+      "y": 120,
+      "width": 220,
+      "height": 80,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "\"Habari ya asubuhi\""
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "tk",
+      "type": "rectangle",
+      "x": 290,
+      "y": 120,
+      "width": 140,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "Tokenizer"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "zone",
+      "type": "rectangle",
+      "x": 480,
+      "y": 115,
+      "width": 402,
+      "height": 90,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "opacity": 50,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ns0ptxbpy6z32",
+      "type": "rectangle",
+      "x": 490,
+      "y": 130,
+      "width": 70,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Hab"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nsbeyq90d5p9t",
+      "type": "rectangle",
+      "x": 568,
+      "y": 130,
+      "width": 70,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "ari"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nsuw9dxo2qol",
+      "type": "rectangle",
+      "x": 646,
+      "y": 130,
+      "width": 70,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": " ya"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.268Z",
+      "updatedAt": "2026-11-26T08:12:16.268Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nsimgrumkas4k",
+      "type": "rectangle",
+      "x": 724,
+      "y": 130,
+      "width": 70,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": " asub"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nsjt4urvly7uc",
+      "type": "rectangle",
+      "x": 802,
+      "y": 130,
+      "width": 70,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "uhi"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nspan3gg7cz9",
+      "type": "text",
+      "x": 580,
+      "y": 213,
+      "strokeColor": "#868e96",
+      "text": "(découpage illustratif)",
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "ids",
+      "type": "rectangle",
+      "x": 930,
+      "y": 120,
+      "width": 330,
+      "height": 80,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "identifiants (IDs)\n[12, 845, 77, 3021, 954]"
+      },
+      "fontSize": 16,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "emb",
+      "type": "rectangle",
+      "x": 30,
+      "y": 340,
+      "width": 300,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "nn.Embedding :\nun vecteur par ID"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mod",
+      "type": "rectangle",
+      "x": 390,
+      "y": 340,
+      "width": 320,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Modèle (Transformer)"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "out",
+      "type": "rectangle",
+      "x": 770,
+      "y": 330,
+      "width": 500,
+      "height": 100,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "Probabilités du prochain token :\nrafiki 0,32 / Amani 0,21 / …"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntl06j2c43vsi",
+      "type": "arrow",
+      "x": 258,
+      "y": 160,
+      "width": 40,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          24,
+          0
+        ]
+      ],
+      "start": {
+        "id": "in"
+      },
+      "end": {
+        "id": "tk"
+      },
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntrhpbuv4110m",
+      "type": "arrow",
+      "x": 438,
+      "y": 160,
+      "width": 50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "tk"
+      },
+      "end": {
+        "id": "zone"
+      },
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntjxc7iye1vu",
+      "type": "arrow",
+      "x": 890,
+      "y": 160,
+      "width": 48,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          32,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "zone"
+      },
+      "end": {
+        "id": "ids"
+      },
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntwt0ngiawiy",
+      "type": "arrow",
+      "x": 338,
+      "y": 380,
+      "width": 60,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "start": {
+        "id": "emb"
+      },
+      "end": {
+        "id": "mod"
+      },
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nt92kcdlvdayu",
+      "type": "arrow",
+      "x": 718,
+      "y": 380,
+      "width": 60,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          5.684341886080802e-14
+        ]
+      ],
+      "start": {
+        "id": "mod"
+      },
+      "end": {
+        "id": "out"
+      },
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nt14qb2ajbsiw",
+      "type": "line",
+      "x": 1095,
+      "y": 200,
+      "width": 1,
+      "height": 70,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntyeh29ce6bh",
+      "type": "line",
+      "x": 180,
+      "y": 270,
+      "width": 915,
+      "height": 1,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntp56ne8iab67",
+      "type": "arrow",
+      "x": 180,
+      "y": 270,
+      "width": 1,
+      "height": 70,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nt22d25l0n4jhi",
+      "type": "line",
+      "x": 1270,
+      "y": 380,
+      "width": 60,
+      "height": 1,
+      "strokeColor": "#e8590c",
+      "strokeStyle": "dashed",
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nt2nti75e2wbb",
+      "type": "line",
+      "x": 1330,
+      "y": 65,
+      "width": 1,
+      "height": 315,
+      "strokeColor": "#e8590c",
+      "strokeStyle": "dashed",
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntxnpwi4mzxxj",
+      "type": "line",
+      "x": 140,
+      "y": 65,
+      "width": 1190,
+      "height": 1,
+      "strokeColor": "#e8590c",
+      "strokeStyle": "dashed",
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntq6o6vovk5f",
+      "type": "arrow",
+      "x": 140,
+      "y": 65,
+      "width": 1,
+      "height": 55,
+      "strokeColor": "#e8590c",
+      "strokeStyle": "dashed",
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3ntqw0jraygs9n",
+      "type": "text",
+      "x": 560,
+      "y": 72,
+      "strokeColor": "#e8590c",
+      "text": "génération token par token",
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    },
+    {
+      "id": "mwx9y3nti6swnb5h73",
+      "type": "text",
+      "x": 330,
+      "y": 480,
+      "strokeColor": "#868e96",
+      "text": "On répète : on ajoute le token choisi et on prédit le suivant.",
+      "fontSize": 18,
+      "createdAt": "2026-11-26T08:12:16.269Z",
+      "updatedAt": "2026-11-26T08:12:16.269Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}
