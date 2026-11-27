@@ -14,7 +14,7 @@ Tout fonctionne dans **Google Colab**, avec le GPU gratuit (NVIDIA T4). Vous n'a
 | Jour | Notebook | Contenu | Ouvrir |
 |---|---|---|---|
 | Jour 1 (26 nov.) | [`Jour1_Introduction_PyTorch.ipynb`](notebooks/Jour1_Introduction_PyTorch.ipynb) | Tenseurs, GPU, autograd, données, modèle, boucle d'entraînement, sauvegarde, pont vers les modèles de langage | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ganji759/IndabaX-DRC-2026-PyTorch-Workshop/blob/main/notebooks/Jour1_Introduction_PyTorch.ipynb) |
-| Jour 2 (27 nov.) | à venir | Fine-tuning LoRA d'un petit modèle de langage en swahili, inférence, déploiement avec ExecuTorch | - |
+| Jour 2 (27 nov.) | [`Jour2_Finetuning_LoRA.ipynb`](notebooks/Jour2_Finetuning_LoRA.ipynb) | Fine-tuning LoRA d'un petit modèle de langage (Qwen2.5-0.5B) sur des instructions en swahili, comparaison avant/après, sauvegarde, déploiement avec ExecuTorch. Session de 30 minutes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ganji759/IndabaX-DRC-2026-PyTorch-Workshop/blob/main/notebooks/Jour2_Finetuning_LoRA.ipynb) |
 
 ## Jour 1 : Introduction à PyTorch
 
@@ -33,6 +33,25 @@ Tout fonctionne dans **Google Colab**, avec le GPU gratuit (NVIDIA T4). Vous n'a
 | 8 | Pont vers le Jour 2 : tokenizer, `nn.Embedding`, mini modèle de langage en swahili | 10 min | - |
 
 Le notebook contient 3 exercices avec leurs solutions (cliquez sur « Voir la solution ») et 4 exercices bonus.
+
+## Jour 2 : adapter un petit modèle de langage au swahili avec LoRA (30 minutes)
+
+![Les étapes du jour 2](images/11_jour2_parcours.png)
+
+| Partie | Sujet | Durée |
+|---|---|---|
+| 0 | Mise en place (GPU T4, installation de `peft`) | 3 min |
+| 1 | Le modèle pré-entraîné `Qwen2.5-0.5B-Instruct` et les réponses « avant » | 5 min |
+| 2 | Les données : 1 000 conversations en swahili, chat template, labels | 4 min |
+| 3 | LoRA : on gèle `W`, on apprend `A` et `B` | 5 min |
+| 4 | L'entraînement : la même boucle qu'au Jour 1, avec la précision mixte | 7 min |
+| 5 | Les réponses « après » et la comparaison | 3 min |
+| 6 | Sauvegarder (adaptateur, modèle fusionné) et déployer avec ExecuTorch | 3 min |
+
+**Conseil :** activez le GPU T4, puis lancez **Exécution → Tout exécuter** au début. Le notebook tourne pendant les explications.
+
+Données : [`regnant-io/swahili-instruction-22k`](https://huggingface.co/datasets/regnant-io/swahili-instruction-22k) (Apache-2.0, traduit automatiquement de l'anglais).
+Modèle : [`Qwen/Qwen2.5-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) (Apache-2.0).
 
 ## Comment commencer
 

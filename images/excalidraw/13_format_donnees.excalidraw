@@ -1,0 +1,158 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwyywlj7wzdhk7gzid",
+      "type": "text",
+      "x": 300,
+      "y": 30,
+      "strokeColor": "#1e1e1e",
+      "text": "Préparer une conversation pour l'entraînement",
+      "fontSize": 28,
+      "createdAt": "2026-11-27T12:38:42.696Z",
+      "updatedAt": "2026-11-27T12:38:42.696Z",
+      "version": 1
+    },
+    {
+      "id": "d",
+      "type": "rectangle",
+      "x": 40,
+      "y": 120,
+      "width": 440,
+      "height": 170,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Données (messages)\n\nuser : Taja mikoa mitano ya Tanzania.\nassistant : 1. Dar es Salaam 2. Dodoma …"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:42.697Z",
+      "updatedAt": "2026-11-27T12:38:42.697Z",
+      "version": 1
+    },
+    {
+      "id": "t",
+      "type": "rectangle",
+      "x": 760,
+      "y": 120,
+      "width": 540,
+      "height": 170,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "<|im_start|>user\nTaja mikoa mitano ya Tanzania.<|im_end|>\n<|im_start|>assistant\n1. Dar es Salaam …<|im_end|>"
+      },
+      "fontSize": 18,
+      "fontFamily": 3,
+      "createdAt": "2026-11-27T12:38:42.698Z",
+      "updatedAt": "2026-11-27T12:38:42.698Z",
+      "version": 1
+    },
+    {
+      "id": "mwyywlj7su9h1svc0l8",
+      "type": "arrow",
+      "x": 488,
+      "y": 205,
+      "width": 1,
+      "height": 1,
+      "label": {
+        "text": "apply_chat_template()"
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          264,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "d"
+      },
+      "end": {
+        "id": "t"
+      },
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    },
+    {
+      "id": "mwyywlj8fw4a5emo4qh",
+      "type": "arrow",
+      "x": 1030,
+      "y": 295,
+      "width": 1,
+      "height": 165,
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    },
+    {
+      "id": "mwyywlj826y654q4co2",
+      "type": "text",
+      "x": 1050,
+      "y": 360,
+      "strokeColor": "#1e1e1e",
+      "text": "tokenizer",
+      "fontSize": 20,
+      "fontFamily": 3,
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    },
+    {
+      "id": "q",
+      "type": "rectangle",
+      "x": 605,
+      "y": 470,
+      "width": 430,
+      "height": 80,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "question : labels = -100 (ignorés)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    },
+    {
+      "id": "r",
+      "type": "rectangle",
+      "x": 1035,
+      "y": 470,
+      "width": 410,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "réponse : labels = IDs (appris)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    },
+    {
+      "id": "mwyywlj8x6ksv54uawf",
+      "type": "text",
+      "x": 40,
+      "y": 600,
+      "strokeColor": "#1e1e1e",
+      "text": "Le modèle apprend seulement à écrire la réponse, pas la question.",
+      "fontSize": 20,
+      "createdAt": "2026-11-27T12:38:42.699Z",
+      "updatedAt": "2026-11-27T12:38:42.699Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

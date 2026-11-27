@@ -1,0 +1,322 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwyyx8tdo49rn0j22rr",
+      "type": "text",
+      "x": 400,
+      "y": 30,
+      "strokeColor": "#1e1e1e",
+      "text": "Du notebook au téléphone",
+      "fontSize": 28,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "base",
+      "type": "rectangle",
+      "x": 40,
+      "y": 120,
+      "width": 320,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "Modèle de base (gelé)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "lora",
+      "type": "rectangle",
+      "x": 40,
+      "y": 280,
+      "width": 320,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "Adaptateur LoRA (≈ 35 Mo)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "merge",
+      "type": "rectangle",
+      "x": 460,
+      "y": 200,
+      "width": 260,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "merge_and_unload()"
+      },
+      "fontSize": 18,
+      "fontFamily": 3,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "save",
+      "type": "rectangle",
+      "x": 820,
+      "y": 200,
+      "width": 260,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "save_pretrained()"
+      },
+      "fontSize": 18,
+      "fontFamily": 3,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "exe",
+      "type": "rectangle",
+      "x": 1180,
+      "y": 200,
+      "width": 270,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "ExecuTorch : export"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "app",
+      "type": "rectangle",
+      "x": 1150,
+      "y": 420,
+      "width": 330,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "Application sur téléphone"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8td0icnoerdlvb",
+      "type": "arrow",
+      "x": 367.83682160513195,
+      "y": 194.42806597028346,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84.32635678973611,
+          17.29771421327925
+        ]
+      ],
+      "start": {
+        "id": "base"
+      },
+      "end": {
+        "id": "merge"
+      },
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdefcr46si39b",
+      "type": "arrow",
+      "x": 367.83682160513195,
+      "y": 285.57193402971654,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84.32635678973611,
+          -17.29771421327922
+        ]
+      ],
+      "start": {
+        "id": "lora"
+      },
+      "end": {
+        "id": "merge"
+      },
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdk12cdv8fuz",
+      "type": "arrow",
+      "x": 728,
+      "y": 240,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "merge"
+      },
+      "end": {
+        "id": "save"
+      },
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdhfwwyfomz34",
+      "type": "arrow",
+      "x": 1088,
+      "y": 240,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "save"
+      },
+      "end": {
+        "id": "exe"
+      },
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8td71yqz83f9f9",
+      "type": "arrow",
+      "x": 1315,
+      "y": 288,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          124
+        ]
+      ],
+      "start": {
+        "id": "exe"
+      },
+      "end": {
+        "id": "app"
+      },
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tde4af0i60wvr",
+      "type": "text",
+      "x": 470,
+      "y": 292,
+      "strokeColor": "#868e96",
+      "text": "fusionner : W + B·A",
+      "fontSize": 16,
+      "createdAt": "2026-11-27T12:39:12.868Z",
+      "updatedAt": "2026-11-27T12:39:12.868Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdj9nqwzqfpt",
+      "type": "text",
+      "x": 840,
+      "y": 292,
+      "strokeColor": "#868e96",
+      "text": "un dossier ≈ 1 Go",
+      "fontSize": 16,
+      "createdAt": "2026-11-27T12:39:12.869Z",
+      "updatedAt": "2026-11-27T12:39:12.869Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdmijtgqxiqh",
+      "type": "text",
+      "x": 1190,
+      "y": 292,
+      "strokeColor": "#868e96",
+      "text": "fichier .pte",
+      "fontSize": 16,
+      "createdAt": "2026-11-27T12:39:12.869Z",
+      "updatedAt": "2026-11-27T12:39:12.869Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8tdn4np13o2jv",
+      "type": "text",
+      "x": 1180,
+      "y": 512,
+      "strokeColor": "#868e96",
+      "text": "Android / iOS, sans Internet",
+      "fontSize": 16,
+      "createdAt": "2026-11-27T12:39:12.869Z",
+      "updatedAt": "2026-11-27T12:39:12.869Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyx8td08e1va3t3o4",
+      "type": "text",
+      "x": 40,
+      "y": 600,
+      "strokeColor": "#868e96",
+      "text": "Pour partager seulement l'adaptateur : quelques dizaines de Mo au lieu de 1 Go.",
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:39:12.869Z",
+      "updatedAt": "2026-11-27T12:39:12.869Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwyyuvkdhr0mqeuup8k",
+      "type": "text",
+      "x": 150,
+      "y": 30,
+      "strokeColor": "#1e1e1e",
+      "text": "Jour 2 : adapter un petit modèle de langage au swahili",
+      "fontSize": 28,
+      "createdAt": "2026-11-27T12:37:22.427Z",
+      "updatedAt": "2026-11-27T12:37:22.427Z",
+      "version": 1
+    },
+    {
+      "id": "b1",
+      "type": "rectangle",
+      "x": 40,
+      "y": 120,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "1. Modèle pré-entraîné\nQwen2.5-0.5B-Instruct"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.428Z",
+      "updatedAt": "2026-11-27T12:37:22.428Z",
+      "version": 1
+    },
+    {
+      "id": "b2",
+      "type": "rectangle",
+      "x": 390,
+      "y": 120,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "2. Question AVANT\non garde ses réponses"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.429Z",
+      "updatedAt": "2026-11-27T12:37:22.429Z",
+      "version": 1
+    },
+    {
+      "id": "b3",
+      "type": "rectangle",
+      "x": 740,
+      "y": 120,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "3. Données en swahili\n1 000 conversations"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.429Z",
+      "updatedAt": "2026-11-27T12:37:22.429Z",
+      "version": 1
+    },
+    {
+      "id": "b4",
+      "type": "rectangle",
+      "x": 1090,
+      "y": 120,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "4. LoRA\npetits poids ajoutés"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.429Z",
+      "updatedAt": "2026-11-27T12:37:22.429Z",
+      "version": 1
+    },
+    {
+      "id": "b5",
+      "type": "rectangle",
+      "x": 40,
+      "y": 340,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "5. Entraînement\nla même boucle qu'hier"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.429Z",
+      "updatedAt": "2026-11-27T12:37:22.429Z",
+      "version": 1
+    },
+    {
+      "id": "b6",
+      "type": "rectangle",
+      "x": 390,
+      "y": 340,
+      "width": 300,
+      "height": 100,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "6. Question APRÈS\non compare"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.429Z",
+      "updatedAt": "2026-11-27T12:37:22.429Z",
+      "version": 1
+    },
+    {
+      "id": "b7",
+      "type": "rectangle",
+      "x": 740,
+      "y": 340,
+      "width": 400,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "7. Sauvegarder et déployer\nadaptateur, fusion, ExecuTorch"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:37:22.430Z",
+      "updatedAt": "2026-11-27T12:37:22.430Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyuvkd982n0j6ofcs",
+      "type": "arrow",
+      "x": 348,
+      "y": 170,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "b1"
+      },
+      "end": {
+        "id": "b2"
+      },
+      "createdAt": "2026-11-27T12:37:22.430Z",
+      "updatedAt": "2026-11-27T12:37:22.430Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyuvkdrtuuu6qmeng",
+      "type": "arrow",
+      "x": 698,
+      "y": 170,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "b2"
+      },
+      "end": {
+        "id": "b3"
+      },
+      "createdAt": "2026-11-27T12:37:22.430Z",
+      "updatedAt": "2026-11-27T12:37:22.430Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyuvkdorpkh8wv0va",
+      "type": "arrow",
+      "x": 1048,
+      "y": 170,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "b3"
+      },
+      "end": {
+        "id": "b4"
+      },
+      "createdAt": "2026-11-27T12:37:22.430Z",
+      "updatedAt": "2026-11-27T12:37:22.430Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyuvkd9kbf6iy0cb",
+      "type": "arrow",
+      "x": 348,
+      "y": 390,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "b5"
+      },
+      "end": {
+        "id": "b6"
+      },
+      "createdAt": "2026-11-27T12:37:22.430Z",
+      "updatedAt": "2026-11-27T12:37:22.430Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyuvkdctykympqmlc",
+      "type": "arrow",
+      "x": 698,
+      "y": 390,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          0
+        ]
+      ],
+      "start": {
+        "id": "b6"
+      },
+      "end": {
+        "id": "b7"
+      },
+      "createdAt": "2026-11-27T12:37:22.431Z",
+      "updatedAt": "2026-11-27T12:37:22.431Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyv7v2o59wsacjii",
+      "type": "line",
+      "x": 1240,
+      "y": 220,
+      "width": 1,
+      "height": 60,
+      "createdAt": "2026-11-27T12:37:38.320Z",
+      "updatedAt": "2026-11-27T12:37:38.320Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyv7v2bbo0mgpb02v",
+      "type": "line",
+      "x": 190,
+      "y": 280,
+      "width": 1050,
+      "height": 1,
+      "createdAt": "2026-11-27T12:37:38.320Z",
+      "updatedAt": "2026-11-27T12:37:38.320Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyv7v2hlxsjtziga7",
+      "type": "arrow",
+      "x": 190,
+      "y": 280,
+      "width": 1,
+      "height": 60,
+      "createdAt": "2026-11-27T12:37:38.320Z",
+      "updatedAt": "2026-11-27T12:37:38.320Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "mwyyvy0k5h04rw1sgsk",
+      "type": "text",
+      "x": 150,
+      "y": 30,
+      "strokeColor": "#1e1e1e",
+      "text": "LoRA : on gèle W et on apprend deux petites matrices",
+      "fontSize": 28,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "x",
+      "type": "rectangle",
+      "x": 40,
+      "y": 300,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "label": {
+        "text": "x (entrée)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "w",
+      "type": "rectangle",
+      "x": 360,
+      "y": 110,
+      "width": 300,
+      "height": 180,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "label": {
+        "text": "W (896 × 896)"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0kg47hc6p9ar",
+      "type": "text",
+      "x": 300,
+      "y": 305,
+      "strokeColor": "#868e96",
+      "text": "gelé : 802 816 nombres, ne change pas",
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "a",
+      "type": "rectangle",
+      "x": 360,
+      "y": 430,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "A (16 × 896)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "b",
+      "type": "rectangle",
+      "x": 620,
+      "y": 430,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "label": {
+        "text": "B (896 × 16)"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0k7ne3mhban9",
+      "type": "text",
+      "x": 360,
+      "y": 525,
+      "strokeColor": "#868e96",
+      "text": "appris : 28 672 nombres (3,6 % de W)",
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "p",
+      "type": "ellipse",
+      "x": 920,
+      "y": 300,
+      "width": 80,
+      "height": 80,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#1e1e1e",
+      "label": {
+        "text": "+"
+      },
+      "fontSize": 48,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:21.150Z",
+      "version": 2
+    },
+    {
+      "id": "h",
+      "type": "rectangle",
+      "x": 1080,
+      "y": 300,
+      "width": 300,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "label": {
+        "text": "h = W·x + B·A·x"
+      },
+      "fontSize": 20,
+      "createdAt": "2026-11-27T12:38:12.215Z",
+      "updatedAt": "2026-11-27T12:38:12.215Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0k3udeqk3fml6",
+      "type": "arrow",
+      "x": 247.48229005965027,
+      "y": 299.33102538283504,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          105.03541988069946,
+          -39.74313184675111
+        ]
+      ],
+      "start": {
+        "id": "x"
+      },
+      "end": {
+        "id": "w"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0ktptlsduvic9",
+      "type": "arrow",
+      "x": 245.87327107851692,
+      "y": 383.0110163756475,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          108.25345784296607,
+          43.977967248705
+        ]
+      ],
+      "start": {
+        "id": "x"
+      },
+      "end": {
+        "id": "a"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0kzf3cohp54c",
+      "type": "arrow",
+      "x": 568,
+      "y": 470,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "start": {
+        "id": "a"
+      },
+      "end": {
+        "id": "b"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0k6e67gcony4b",
+      "type": "arrow",
+      "x": 667.6388542106463,
+      "y": 249.04319908775665,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          246.528020525476,
+          76.69760638570364
+        ]
+      ],
+      "start": {
+        "id": "w"
+      },
+      "end": {
+        "id": "p"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0k6hoc5xxdv7t",
+      "type": "arrow",
+      "x": 800.880489578448,
+      "y": 426.189734811674,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          116.91349602778689,
+          -63.32814368171785
+        ]
+      ],
+      "start": {
+        "id": "b"
+      },
+      "end": {
+        "id": "p"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0kgftgrrs0keb",
+      "type": "arrow",
+      "x": 1008,
+      "y": 340,
+      "width": 1,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          0
+        ]
+      ],
+      "start": {
+        "id": "p"
+      },
+      "end": {
+        "id": "h"
+      },
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0kjpfw6fl0fun",
+      "type": "text",
+      "x": 40,
+      "y": 600,
+      "strokeColor": "#868e96",
+      "text": "r = 16 : le « rang » (taille du goulot). Petit r = peu de paramètres à entraîner.",
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.216Z",
+      "updatedAt": "2026-11-27T12:38:12.216Z",
+      "version": 1
+    },
+    {
+      "id": "mwyyvy0ktqp2auebg",
+      "type": "text",
+      "x": 40,
+      "y": 645,
+      "strokeColor": "#e03131",
+      "text": "Au début, B = 0 : le modèle commence exactement comme l'original.",
+      "fontSize": 18,
+      "createdAt": "2026-11-27T12:38:12.217Z",
+      "updatedAt": "2026-11-27T12:38:12.217Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}
